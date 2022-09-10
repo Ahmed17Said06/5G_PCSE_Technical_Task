@@ -1,0 +1,32 @@
+
+version: "2.10.2"
+
+services:
+
+  server:
+
+    build: server/
+    restart: always
+
+
+    command: ./server
+
+
+    ports:
+      - 54000:54000
+
+
+  client:
+
+    build: client/
+    restart: always
+
+    command:
+      - '/bin/sh'
+      - '-c'
+      - '/bin/sleep 5 && ./client'
+
+    network_mode: host
+
+    depends_on:
+      - server

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/5G_PCSE_Technical_Task_tst.dir/main.cpp.o CMakeFiles/5G_PCSE_Technical_Task_tst.dir/unit_test.cpp.o -o 5G_PCSE_Technical_Task_tst  ../src/lib5G_PCSE_Technical_Task_lib.a ../lib/libgtest.a 

@@ -1,0 +1,501 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						35
+					]
+				},
+				{
+					"build" : "tst",
+					"jsonFile" : "directory-tst-Debug-2ee6eb19ba6271739849.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tst",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/googletest",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest-Debug-f566c6626c443d7d0c98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/googletest"
+				},
+				{
+					"build" : "lib/googletest/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest.googlemock-Debug-645c33cd0cf9af77fc5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						31,
+						32
+					]
+				},
+				{
+					"build" : "lib/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.googletest.googletest-Debug-4718b91dcc32e9ec5bfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "5G_PCSE_Technical_Task",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						35
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						31,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "5G_PCSE_Technical_Task_lib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-5G_PCSE_Technical_Task_lib-Debug-6a90025590e13e141208.json",
+					"name" : "5G_PCSE_Technical_Task_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "5G_PCSE_Technical_Task_tst::@bc08d5df49ffa9ee5cce",
+					"jsonFile" : "target-5G_PCSE_Technical_Task_tst-Debug-7eae9a08fa73441eae6c.json",
+					"name" : "5G_PCSE_Technical_Task_tst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Continuous::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Continuous-Debug-b4983177f6743cd06e05.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousBuild::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousBuild-Debug-1720eab39a1167aff55a.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousConfigure::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousConfigure-Debug-6ce326fb0075d1dca6d6.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousCoverage::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousCoverage-Debug-62dd2698caa7beacf6fc.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousMemCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-7e2e4bdb5a9eb2cb515c.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousStart::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousStart-Debug-1842dcf1ec4ff08722ac.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousSubmit::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousSubmit-Debug-e85037f6ab2f6c7485eb.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousTest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousTest-Debug-e66e987d42c56f953b79.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousUpdate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousUpdate-Debug-e31a94d208ddf2375761.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Experimental::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Experimental-Debug-9cdca8b4875e6cb30153.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalBuild::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalBuild-Debug-442581ebf4699edfe5ff.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalConfigure::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-cc45fe46737171c43a32.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalCoverage::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-d737c60ca15c1a5508bd.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalMemCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-19c947aff9572e173978.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalStart::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalStart-Debug-51c7593ebfa9536326d6.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalSubmit::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-5c687ca2451a299bc547.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalTest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalTest-Debug-cd9666a383c588790944.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalUpdate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-98e14c13ac703cb1e8c0.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Nightly::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Nightly-Debug-d2de4c5f7619a9ddd693.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyBuild::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyBuild-Debug-db77d245aeb349557c93.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyConfigure::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyConfigure-Debug-13bfea3a9813b1d5654a.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyCoverage::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyCoverage-Debug-df16b91db4a05e246e64.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyMemCheck-Debug-a26f67dbd7ff1b698b64.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemoryCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-cb1d51c104ed143fd697.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyStart::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyStart-Debug-2fae8cb10aa6f68cd738.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlySubmit::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlySubmit-Debug-fcfe14daca79c89473bc.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyTest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyTest-Debug-7eb386097fbe20e61d8f.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyUpdate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyUpdate-Debug-e69b4b34829e4b7548d9.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "client::@145eef247bfb46b6828c",
+					"jsonFile" : "target-client-Debug-3910417bdb86e506f167.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@7712283c01f504ef6d93",
+					"jsonFile" : "target-gmock-Debug-fb5e2b50075d207dfabb.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@7712283c01f504ef6d93",
+					"jsonFile" : "target-gmock_main-Debug-a537b4de01300f54bfba.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@7e3677ed2a4dc8c8eb88",
+					"jsonFile" : "target-gtest-Debug-ac8b6baffd4607753e72.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@7e3677ed2a4dc8c8eb88",
+					"jsonFile" : "target-gtest_main-Debug-6397fb49eef87dcfb383.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "server::@145eef247bfb46b6828c",
+					"jsonFile" : "target-server-Debug-e8dba4e4c4f8f19de486.json",
+					"name" : "server",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ahmed/projects/5G_PCSE_Technical_Task/build",
+		"source" : "/home/ahmed/projects/5G_PCSE_Technical_Task"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/5G_PCSE_Technical_Task_run.dir/Func_delegate_tst.cpp.o CMakeFiles/5G_PCSE_Technical_Task_run.dir/client.cpp.o CMakeFiles/5G_PCSE_Technical_Task_run.dir/server.cpp.o -o 5G_PCSE_Technical_Task_run 

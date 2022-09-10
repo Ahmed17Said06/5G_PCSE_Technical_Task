@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/src",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -g -std=gnu++11 -o CMakeFiles/server.dir/server.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/src/server.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/src/server.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/src",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -g -std=gnu++11 -o CMakeFiles/client.dir/client.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/src/client.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/src/client.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/src",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -g -std=gnu++11 -o CMakeFiles/5G_PCSE_Technical_Task_lib.dir/Func_delegate_tst.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/src/Func_delegate_tst.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/src/Func_delegate_tst.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/src",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -g -std=gnu++11 -o CMakeFiles/5G_PCSE_Technical_Task_lib.dir/client.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/src/client.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/src/client.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/src",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -g -std=gnu++11 -o CMakeFiles/5G_PCSE_Technical_Task_lib.dir/server.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/src/server.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/src/server.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/tst",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/include -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest -g -std=gnu++14 -o CMakeFiles/5G_PCSE_Technical_Task_tst.dir/main.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/tst/main.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/tst/main.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/tst",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/include -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest -g -std=gnu++14 -o CMakeFiles/5G_PCSE_Technical_Task_tst.dir/unit_test.cpp.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/tst/unit_test.cpp",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/tst/unit_test.cpp"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/lib/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -I/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock/include -I/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/include -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/lib/googletest/googlemock",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock/include -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/include -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/lib/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -I/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/include -I/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/ahmed/projects/5G_PCSE_Technical_Task/build/lib/googletest/googletest",
+  "command": "/usr/bin/g++  -I/home/ahmed/projects/5G_PCSE_Technical_Task/src -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/include -isystem /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/ahmed/projects/5G_PCSE_Technical_Task/lib/googletest/googletest/src/gtest_main.cc"
+}
+]
